@@ -5,7 +5,7 @@
 }
 body {
   background-image: url(./cecytem_escudo_by_mayle_namiki-d99d6xs.jpg);
-  background-size: contain;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,28 +19,54 @@ h1 {
   font-size: 2.5rem;
   margin-top: -10rem;
 }
-.boton {
-  display: flex;
-  width: 65px;
-  height: 65px;
-  background-color: #20a1b3;
-  margin: 5px;
-  padding: 10px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  font-size: 11px;
-  line-height: 42px;
-  text-transform: uppercase;
-  float: center;
+
+.Titulo {
+  text-align: center;
+  font-family: Arial Black;
+  font-weight: bold;
+  font-size: 30px;
+  background: #202020;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.4),
+    0px -1px 1px rgba(0, 0, 0, 0.3);
 }
-.boton:hover {
-  opacity: 0.5;
-  -moz-opacity: 0.5;
-  filter: alpha (opacity=50);
+
+.Caja {
+  border: white 8px groove;
+  border-radius: 5px;
+  width: 340px;
+  text-align: center;
 }
-.boton a {
-  color: rgb(5, 0, 0);
-  text-decoration: none;
-  padding: 5px 5px 5px 0;
+
+.button {
+  background-color: #4caf50;
+  width: 200px;
+  height: 80px;
+  font-family: fantasy;
+  font-size: 30px;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.button2 {
+  background-color: #ff0000;
+  width: 200px;
+  height: 80px;
+  font-family: fantasy;
+  font-size: 30px;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  background-color: #ff0000; /* Green */
+  color: white;
 }
