@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(184, 177, 177);
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Navegación */
+.nav-main{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px;
+
+}
+
+.nav-icon{
+    width: 150px;
+}
+
+/* Nav izq*/
+.nav-main ul {
+    display: flex;
+}
+.nav-main ul li{
+    padding: 10px;
+}
+
+.nav-main ul li a{
+    padding: 8px;
+}
+.nav-main ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Show case */
+hr {
+    margin: 20px 0;
+}
+.Showcase {
+    width: 100%;
+    height: 500px;
+    color: black;
+    background: url(img/im.png) no-repeat center center/cover;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Showcase h2 {
+    font-size: 80px;
+}
+.Showcase p {
+    margin: 15px 0 0 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+/* Servicios */
+.Servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin: 10px 0;
+}
+.Servicios img {
+    width: 200px;
+    height: 180px;
+}
+
+.Servicios h3 {
+    color: #000000;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.Servicios p {
+    color: #000000;
+}
+.Servicios a {
+    padding: 10px 0;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+.Servicios a:hover {
+    text-decoration: underline;
+}
+
+
+/* Redes sociales */
+.Redes {
+    padding: 100px 0 0 30px;
+    background: url(img/im.png) no-repeat center center/cover;
+    width: 100%;
+    height: 350px;
+
+    margin-bottom: 40px;
+}
+
+.Redes {
+    margin: 0;
+}
+
+.Contactos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contactos a {
+    margin: 0 30px;
+}
+
+.Contactos i {
+    margin: 10px 0 0 0;
+    color: #000000;
+    font-size: 3rem;
+}
+
+.Contactos i:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Mobil */
