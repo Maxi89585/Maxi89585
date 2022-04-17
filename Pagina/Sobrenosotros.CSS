@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
@@ -24,7 +24,7 @@ ul {
     margin: auto;
 }
 
-/*Navegacion*/
+/* Navegación */
 .nav-main{
     font-size: 20px;
     display: flex;
@@ -58,6 +58,8 @@ ul {
     flex: 1;
     margin-left: 20px;
 }
+
+/* Show case */
 hr {
     margin: 20px 0;
 }
