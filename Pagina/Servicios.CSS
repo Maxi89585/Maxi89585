@@ -10,6 +10,50 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Navegación */
+.nav-main{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px;
+
+}
+
+.nav-icon{
+    width: 150px;
+}
+
+/* Nav izq*/
+.nav-main ul {
+    display: flex;
+}
+.nav-main ul li{
+    padding: 10px;
+}
+
+.nav-main ul li a{
+    padding: 8px;
+}
+.nav-main ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Show case */
+hr {
+    margin: 20px 0;
+}
 .Servicios {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
