@@ -55,7 +55,6 @@ ul{
 
 /* registros */
 .registros{
-    font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,13 +67,11 @@ ul{
 .registros ul li{
     padding: 1px;
 }
+
 .registros ul li a{
     padding: 8px;
 }
-.registros ul.botones{
-    flex: 1;
-    margin-left: 20px;
-}
+
 
 hr{
     margin: 20px 0;
