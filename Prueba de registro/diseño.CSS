@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: aqua;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* Navegacion */
+
+
+.nav-main{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 20px;
+}
+.logo{
+    width: 150px;
+}
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li{
+    padding: 1px;
+}
+.nav-main ul li a{
+    padding: 8px;
+}
+.nav-main ul li a:hover{
+    border-bottom: 2px solid #ffff;
+}
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* registros */
+.registros{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 20px;
+}
+.registros ul{
+    display: flex;
+}
+.registros ul li{
+    padding: 1px;
+}
+.registros ul li a{
+    padding: 8px;
+}
+.registros ul.botones{
+    flex: 1;
+    margin-left: 20px;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+
+
