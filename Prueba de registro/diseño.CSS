@@ -53,24 +53,6 @@ ul{
     margin-left: 20px;
 }
 
-/* registros */
-.registros{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 90px;
-    padding: 20px;
-}
-.registros ul{
-    display: flex;
-}
-.registros ul li{
-    padding: 1px;
-}
-
-.registros ul li a{
-    padding: 8px;
-}
 
 
 hr{
