@@ -5,6 +5,7 @@
 }
 
 body {
+    background: url("Imagenes/Fondo.jpg") no-repeat center center/cover;
     background-color: rgb(184, 177, 177);
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
@@ -36,7 +37,8 @@ ul {
 }
 
 .nav-icon{
-    width: 150px;
+    margin-top: 20px;
+    width: 200px;
 }
 
 /* Nav izq*/
